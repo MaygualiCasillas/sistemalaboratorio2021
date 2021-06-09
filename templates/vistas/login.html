@@ -1,0 +1,75 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<title>Sistema de registro del laboratorio </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1"> 
+<meta name="description " content="Mi primer página web ">
+<meta name="author " content="Mayguali Guadalupe MC">
+<meta name="keywords" content="Programación Web">
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+
+<h5 style="background-color:white ;" align="center">
+  <div class="container">
+
+             <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link  aria-disabled " aria-current="page" href="login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cambios">Cambios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="bajas" >Bajas</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" href="consultar" >Consultar Fecha y Hora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="loginout" tabindex="-1" aria-disabled="true">Login out</a>
+              </li>
+               </ul>  <br><br></h5>
+
+ <img src="{% static 'imagenes/LOGO2.png' %}" alt="..." width="170px" height="100px" > 
+ <img src="{% static 'imagenes/lOGO.png' %}"  alt="..." width="250px" height="100px" align="right">
+
+            
+<br>
+<br>
+
+
+           
+  <center><div class="card mb-3" style="max-width: 640px;">
+    <h6>Administrador</h6>
+    <hr>
+  <div class="row g-0">
+    <div class="col-sm-4 col-md-4 col-lg-4 " align="center">
+      
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 ">
+      <div class="card-body">
+      <label for="nombre"> RFC </label>
+      <input class="form-control" type="" name="nombre" value="" placeholder="Rfc"> <br>
+      <label for="nombre"> Nombre </label>
+      <input class="form-control" type="text" name="nombre" value="" placeholder="Nombre"> <br>
+      <label for="contraseña">Contraseña</label></b>
+      <input class="form-control" type="password" name="contraseña" value="123456789" required><br>
+
+        <input class="btn btn-primary" type="submit" name="" value="Entrar" align="center" >
+
+      </div>
+    </div>
+  </div>
+</div></center>
+
+
+
+
+               </div></html>
+
+
